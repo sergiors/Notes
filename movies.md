@@ -1,0 +1,35 @@
+---
+title: Movies
+---
+
+[ ] a pele que habito
+[ ] knight of cup
+[ ] the tree of life
+[ ] coherence
+[x] trainspotting
+[x] it might get loud 
+[x] jimi all is by my side
+[x] whiplash
+[x] lion
+[x] aeven
+[x] the count of monte cristo 
+[x] oblivion
+[x] ai artificial intelligence
+[x] shawshank redemption
+[x] the miserables 1998
+[x] a knight’s tale
+[x] hacksaw ridge
+[x] inception
+[x] interstellar
+[x] the green mile
+[x] the intouchables
+[x] gadiator
+[x] django unchained
+[x] braveheart
+[x] requiem for a dream
+[x] v for vendetta
+[x] hachi a dog’s tale
+[x] seven years in tibet
+[x] donnie darko
+[x] the adventure of baron munchausen
+[x] no country for old men
