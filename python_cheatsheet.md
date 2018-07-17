@@ -2,6 +2,16 @@
 title: Python Cheatsheet
 ---
 
+Python Cheatsheet
+-----------------
+
+Python doesn't have type hint, is just for **semantics**, known as **annotations**. If you want static type, you need to use [MyPy](http://mypy-lang.org/).
+
+```python
+def foo(a: str) -> int:
+    ...
+```
+
 ## [Data Structures](https://docs.python.org/3.6/tutorial/datastructures.html)
 
 ```python
@@ -87,6 +97,39 @@ dict_vec = {'x': 1, 'y': 0, 'z': 1}
 1, 0, 1
 ```
 
+```python
+# Unpacking
+
+>>> head, *rest = range(5)
+>>> head
+0
+>>> rest
+[1, 2, 3, 4]
+
+>>> *rest, tail = range(5)
+>>> rest
+[0, 1, 2, 3]
+>>> tail
+4
+
+>>> head, *rest, tail = range(5)
+>>> head
+0
+>>> rest
+[1, 2, 3]
+>>> tail
+4
+```
+
+```python
+# Keyword-only arguments
+# It doesn't equal to use unpacking arguments
+
+def compare(a, b, *, key=None):
+    ...
+```
+
 ## Refs
-https://gto76.github.io/python-cheatsheet/
-https://dbader.org/blog/
+- https://gto76.github.io/python-cheatsheet/
+- https://dbader.org/blog/
+- https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
