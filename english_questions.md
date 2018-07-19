@@ -2,6 +2,12 @@
 title: English Questions
 ---
 
+### To watch later
+- [ ] [Problems with Pronouns and Gender](https://learningenglish.voanews.com/a/problems-with-pronouns-and-gender/2770727.html)
+- [ ] [A pronúncia de can't, haven't, wouldn't, aren't, etc.: Contrações em Inglês | Dica #3](https://www.youtube.com/watch?v=K24VUg2WF_Y)
+- [ ] [Como pronunciar –N'T em inglês | CONTRAÇÕES #1](https://www.youtube.com/watch?v=q-fjnYTasdE)
+
+---
 
 Ever _wondered_ why candy crush saga is _worth_ over 6 billion dollars? People buy lives to continue the playing the game.
 
