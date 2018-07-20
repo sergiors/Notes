@@ -9,6 +9,16 @@ title: English Questions
 
 ---
 
+### [In, On, and At](https://learningenglish.voanews.com/a/prepositions-time-place-everyday-grammar-in-on-at/2732061.html)
+These common words are prepositions that show a relationship between two words in a sentence.
+
+##### Prepositions and Time
+**in** to refer to a general, longer period of time, such as **month**, **years**, **decades**, or **centuries**.
+
+we say "in April", "in 2015" or "int the 21st century".
+
+---
+
 Ever _wondered_ why candy crush saga is _worth_ over 6 billion dollars? People buy lives to continue the playing the game.
 
 **Unknown vocabulary**
@@ -16,36 +26,3 @@ Ever _wondered_ why candy crush saga is _worth_ over 6 billion dollars? People b
 - [x] worth
 
 https://www.pulse.ng/lifestyle/money/5-unnecessary-things-you-can-avoid-spending-money-on-id7715991.html
-
-### Words that I confuse
-- [x] Worst
-- [ ] Through
-- [ ] Though
-- [ ] Thought
-- [ ] Although
-
-**Worst** superlative of **bad** or of **ill**.
-1. most corrupt, bad, evil, or ill - his worst fault
-
-- This is the worst car I've ever bought.
-- In my opinion, it's her worst book.
-- It was the worst movie I've ever seen.
-- His worst quality it his impatience.
-
-**Worth** having monetary or material value 
-1. monetary value - farmhouse and lands of little worth
-2. moral or personal value - trying to teact human worth
-
-synonyms
-- value
-- valuation
-- merit
-- cost
-- quality
-
-
-### To review
-- [ ] Request, offer
-- [ ] Give directions
-- [ ] Modal verbs: can, could and may
-- [ ] Prepositions
