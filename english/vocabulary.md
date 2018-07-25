@@ -1,10 +1,24 @@
+- [Cambridge Dictionary](https://dictionary.cambridge.org/)
+- [Merriam-Webster](https://www.merriam-webster.com/)
+
+Words
+-----
+
 - [x] Worst - something bad
 - [x] Worth
 - [ ] Through
 - [ ] Though
-- [x] Thought - p.s. of **think**
+- [x] Thought - p. s. of **think**
 - [ ] Although
 - [ ] Whether
+
+---
+
+Phrasal verb
+------------
+
+- [x] Figure out - to understand or solve something
+- [ ] Find out
 
 ---
 
