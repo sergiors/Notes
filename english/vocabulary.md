@@ -45,3 +45,19 @@ The act of thinking about or considering something, an ideia or option.
 
 - I thought you were American.
 - That was a kind thought.
+
+
+Rather
+------
+
+##### Modifying an adjective
+- The film was **rather** good.
+
+##### Modifying an adverb
+- It happened **rather** quicky
+
+
+> 1. It's stronger than **fairly**, but not as **strong as very**.
+> 2. It can modify a noun, often coming before artiches:
+> 3. It's rather a problem.
+> 4. It's can modify some varbs: I rather like it.

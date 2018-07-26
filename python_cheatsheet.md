@@ -129,7 +129,25 @@ def compare(a, b, *, key=None):
     ...
 ```
 
+```python
+# f-strings
+
+>>> name = 'Hendrix'
+>>> age = 27
+>>> f'Hello, {name}. You are {age}.'
+'Hello, Hendrix. You are 27.'
+
+>>> f'{2 * 37}'
+'74'
+
+
+# multiple lines
+>>> (f'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
+     f'Ut et tortor sollicitudin augue varius consequat.')
+```
+
 ## Refs
 - https://gto76.github.io/python-cheatsheet/
 - https://dbader.org/blog/
+- https://realpython.com/python-f-strings/
 - https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
