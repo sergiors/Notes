@@ -1,16 +1,19 @@
 - [Cambridge Dictionary](https://dictionary.cambridge.org/)
 - [Merriam-Webster](https://www.merriam-webster.com/)
+- [Phrasal Verbs List](https://www.englishclub.com/vocabulary/phrasal-verbs-list.htm)
 
 Words
 -----
 
 - [x] Worst - something bad
-- [x] Worth
+- [x] Worth - somtething that has any value
+- [x] Worthless - adj. lacking worth - useless 
+- [x] Thought - past s. of **think**
 - [ ] Through
 - [ ] Though
-- [x] Thought - p. s. of **think**
 - [ ] Although
 - [ ] Whether
+- [ ] Ratters
 
 ---
 
@@ -46,6 +49,14 @@ The act of thinking about or considering something, an ideia or option.
 - I thought you were American.
 - That was a kind thought.
 
+
+----
+
+Though
+------
+- [4 Ways to Use 'Though'](https://www.ecenglish.com/learnenglish/lessons/4-ways-use-though)
+
+------
 
 Rather
 ------

@@ -11,7 +11,7 @@ title: Movies
 - [x] jimi all is by my side
 - [x] whiplash
 - [x] lion
-- [x] aeven
+- [x] seven
 - [x] the count of monte cristo 
 - [x] oblivion
 - [x] ai artificial intelligence

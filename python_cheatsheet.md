@@ -18,23 +18,24 @@ def foo(a: str) -> int:
 # List
 # mutable
 
-[1, 2, 3]
+>>> [1, 2, 3, 1]
+[1, 2, 3, 1
 ```
 
 ```python
 # Tuple
 # immutable
 
-(1, 2, 3)
+>>> (1, 2, 3, 1)
+(1, 2, 3, 1)
 ```
 
 ```python
 # Dict
 
 {'a': 1, 'b': 2}
-```
 
-```python
+
 # How to merge two dicts in Python 3.5+
 
 >>> x = {'a': 1, 'b': 2}
@@ -49,7 +50,8 @@ def foo(a: str) -> int:
 # unordered collection
 # no duplicate elements
 
-{'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+>>> {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+{'apple', 'banana', 'orange', 'pear
 ```
 
 Note: to create an empty set you have to use `set()`, not `{}`
@@ -150,4 +152,5 @@ def compare(a, b, *, key=None):
 - https://gto76.github.io/python-cheatsheet/
 - https://dbader.org/blog/
 - https://realpython.com/python-f-strings/
+- https://realpython.com/python-dicts/
 - https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
