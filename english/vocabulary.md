@@ -52,14 +52,13 @@ The act of thinking about or considering something, an ideia or option.
 
 ----
 
-Though
-------
+#### Though
+
 - [4 Ways to Use 'Though'](https://www.ecenglish.com/learnenglish/lessons/4-ways-use-though)
 
 ------
 
-Rather
-------
+#### Rather
 
 ##### Modifying an adjective
 - The film was **rather** good.
@@ -68,7 +67,27 @@ Rather
 - It happened **rather** quicky
 
 
-> 1. It's stronger than **fairly**, but not as **strong as very**.
-> 2. It can modify a noun, often coming before artiches:
-> 3. It's rather a problem.
-> 4. It's can modify some varbs: I rather like it.
+> - It's stronger than **fairly**, but not as **strong as very**.
+> - It can modify a noun, often coming before artiches:
+> - It's rather a problem.
+> - It's can modify some varbs: I rather like it.
+
+----
+
+
+**stick** - verb. to hold to something firmly by or as if by adhesion
+
+> - ...and then stick to it for a while.
+> - I used adhesive tape to stick the poster to the wall.
+> - My baby bother likes to stick his hand into the fishbowl
+> - I stuck the card into the reader to open the electronic lock.
+
+**stick** - noun. a woody piece of a tree or shrub
+
+> - My father likes to hike with a stick.
+> - I used a stick to knock the fruit off the tree.
+> - We ate sausages on the stick at the picnic.
+
+---
+
+- http://www.mairovergara.com/qual-a-diferenca-entre-whatever-whenever-wherever-etc/

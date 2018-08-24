@@ -29,8 +29,9 @@ To listen
 Good videos
 -----------
 
-- [x] [REDUZA SEU SOTAQUE EM 20% | dica de inglês em inglês #01](https://www.youtube.com/watch?v=0Yr8xnNXvEA)
-- [x] [Improve Your Vocabulary With These Simple Tips](https://www.youtube.com/watch?v=RE8Q1rIvQ7o)
+- [x] [REDUZA SEU SOTAQUE EM 20% | dica de inglês em inglês #01](https://www.youtube.com/watch?v=0Yr8xnNXvEA) 1x
+- [x] [Improve Your Vocabulary With These Simple Tips](https://www.youtube.com/watch?v=RE8Q1rIvQ7o) 1x
+- [x] [How to increase your vocabulary](https://www.youtube.com/watch?v=53SIKuCuHv0) 1x
 - [ ] [Interview: How To Achieve Your Dreams With English | Advanced Conversation](https://www.youtube.com/watch?v=XrR5L7wieWk)
 - [ ] [Live: How to become fluent in English | Techniques, Strategies and Hacks.](https://www.youtube.com/watch?v=muaewByKIcM)
 - [ ] [MAGIC E: a regra de PRONÚNCIA que funciona 95% DAS VEZES!](https://www.youtube.com/watch?v=5gkZWcp_a08)

@@ -1,8 +1,9 @@
 ### Songs that I need to improve
 
 - [ ] [Slither's Solo](https://www.youtube.com/watch?v=Mp6azKHnPjk)
-- [ ] Slither's Intro
+- [x] Slither's Intro
 - [x] I Belive in Miracles' Solo
+- [ ] Would? [Jerry Cantrell - Alice In Chains Guitar Lesson](https://www.youtube.com/watch?v=JkjemgCL8F4)
 
 ### Backing Tracks
 

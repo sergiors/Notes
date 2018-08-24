@@ -144,11 +144,13 @@ def compare(a, b, *, key=None):
 
 
 # multiple lines
->>> (f'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
+>>> lorem = 'Lorem ipsum'
+>>> (f'{lorem} dolor sit amet, consectetur adipiscing elit.' +
      f'Ut et tortor sollicitudin augue varius consequat.')
 ```
 
 ## Refs
+- https://docs.python-guide.org/
 - https://gto76.github.io/python-cheatsheet/
 - https://dbader.org/blog/
 - https://realpython.com/python-f-strings/
