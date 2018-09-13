@@ -90,4 +90,12 @@ The act of thinking about or considering something, an ideia or option.
 
 ---
 
+**To bear** - meaning to carry, to tolerate, to give birth to
+- Every day I bear
+- Yesterday I bore
+- I have born
+
+---
+
 - http://www.mairovergara.com/qual-a-diferenca-entre-whatever-whenever-wherever-etc/
+- https://www.usingenglish.com/reference/irregular-verbs/

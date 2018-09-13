@@ -10,9 +10,8 @@ title: PostgreSQL Cheatsheet
 $ psql postgres://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE NAME}
 ```
 
+#### json
 ```sql
--- json
-
 -- concat
 UPDATE users SET metadata = metadata || '{"country": "Brazil"}';
 
@@ -21,6 +20,12 @@ UPDATE users SET metadata = metadata - 'country';
 
 -- select
 SELECT * FROM groups WHERE (metadata->'managed_by'->>'id') = 50;
+SELECT * FROM enrollments WHERE (metadata->'created_at')::timestamptz) < '2018-01-30'
+```
+
+#### copy csv to stdout
+```sql
+COPY (select * from users) TO STDOUT DELIMITER ',' CSV HEADER;
 ```
 
 Links

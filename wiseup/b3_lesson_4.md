@@ -44,7 +44,7 @@ Uncountable Nouns
 ----
 
 - `Can` **favor**/**permission**
-- `May` **permission**
-- `Would` **offers**
+- `May` **permission** or **probability**
+- `Would` **offers**/**past abillity**
 
 _**May** is more common for permission._
