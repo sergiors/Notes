@@ -9,7 +9,7 @@
 - **Might** -> Remote possibility
 - **Have to** -> Obligation (external)
 - **Used to** -> Past habit
-- **Going to**
+- **Be Going to**
 
 We use **would** to talk about _hypotheses_, about something which is possible but **not** real.
 

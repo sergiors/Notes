@@ -7,7 +7,7 @@ title: VOA Lessons
 
 ### [Lesson 1: Budget Cuts](https://learningenglish.voanews.com/a/lets-learn-english-level-2-lesson1/3960391.html)
 
-I **wonder** what it's about. Maybe we're all getting **raises**! Ooo, there's Jonathan! Maybe he knows.
+I **wonder** what it's about. Maybe we're all getting **raises**! Oh, there's Jonathan! Maybe he knows.
 
 Oh! Budget cuts? Wait, who has **been talking** about budget cuts?
 

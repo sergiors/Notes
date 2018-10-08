@@ -19,7 +19,8 @@ def foo(a: str) -> int:
 # mutable
 
 >>> [1, 2, 3, 1]
-[1, 2, 3, 1
+[1, 2, 3, 1]
+
 ```
 
 ```python
@@ -28,6 +29,8 @@ def foo(a: str) -> int:
 
 >>> (1, 2, 3, 1)
 (1, 2, 3, 1)
+
+
 ```
 
 ```python
@@ -42,7 +45,8 @@ def foo(a: str) -> int:
 >>> y = {'b': 3, 'c': 4}
 >>> z = {**x, **y}
 >>> z
-{'c': 4, 'a': 1, 'b': 3}
+{'a': 1, 'b': 3, 'c': 4}
+
 ```
 
 ```python
@@ -50,8 +54,9 @@ def foo(a: str) -> int:
 # unordered collection
 # no duplicate elements
 
->>> {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
-{'apple', 'banana', 'orange', 'pear
+>>> sorted({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'})
+['apple', 'banana', 'orange', 'pear']
+
 ```
 
 Note: to create an empty set you have to use `set()`, not `{}`
@@ -63,40 +68,44 @@ Note: to create an empty set you have to use `set()`, not `{}`
 
 >>> [a if a else 2 for a in [0, 1, 0, 3]]
 [2, 1, 2, 3]
+
 ```
 
 
 ```python
 # Map
 
->>> map(lambda x: x+1, range(10))
-[1, 2, ..., 10]
+>>> list(map(lambda x: x+1, range(5)))
+[1, 2, 3, 4, 5]
 
 # Filter
->>> filter(lambda x: x>5, range(10))
-[6, 7, ..., 9]
+>>> list(filter(lambda x: x>5, range(10)))
+[6, 7, 8, 9]
 
 # Reduce
-from functools import reduce
+>>> from functools import reduce
 >>> reduce(lambda p, x: p+x, range(10))
 45
+
 ```
 
 
 ```python
 # Function argument unpacking
 
-def myfunc(x, y, z):
-    print(x, y, z)
+>>> def myfunc(x, y, z):
+...     print(x, y, z)
+...
 
-tuple_vec = (1, 0, 1)
-dict_vec = {'x': 1, 'y': 0, 'z': 1}
+>>> tuple_vec = (1, 0, 1)
+>>> dict_vec = {'x': 1, 'y': 0, 'z': 1}
 
 >>> myfunc(*tuple_vec)
-1, 0, 1
+1 0 1
 
 >>> myfunc(**dict_vec)
-1, 0, 1
+1 0 1
+
 ```
 
 ```python
@@ -121,6 +130,7 @@ dict_vec = {'x': 1, 'y': 0, 'z': 1}
 [1, 2, 3]
 >>> tail
 4
+
 ```
 
 ```python
@@ -145,14 +155,30 @@ def compare(a, b, *, key=None):
 
 # multiple lines
 >>> lorem = 'Lorem ipsum'
->>> (f'{lorem} dolor sit amet, consectetur adipiscing elit.' +
-     f'Ut et tortor sollicitudin augue varius consequat.')
+>>> (f'{lorem} dolor sit amet, consectetur adipiscing elit.'
+... f'Ut et tortor sollicitudin augue varius consequat.')
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut et tortor sollicitudin augue varius consequat.'
+
+```
+
+
+```python
+# allow only keyword arguments after a bare `*`
+
+def f(*, a, b):
+  print(a + b)
+
+f(1, 3)  # raises: "f() takes 0 positional arguments"
+f(a=1, b=3)
+
 ```
 
 ## Refs
+- http://whypy3.com/
 - https://docs.python-guide.org/
 - https://gto76.github.io/python-cheatsheet/
 - https://dbader.org/blog/
+- https://realpython.com/inner-functions-what-are-they-good-for/
 - https://realpython.com/python-f-strings/
 - https://realpython.com/python-dicts/
 - https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
