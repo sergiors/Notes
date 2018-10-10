@@ -35,11 +35,17 @@ Goals
 
 Save money
 ----------
-1.5 * 12 = **18k**  
-2 * 12 = **24k**  
-3 * 12 = **36k**  
+1.5 * 12 = **18k**
+2 * 12 = **24k**
+3 * 12 = **36k**
 
 ---
 
 ### To watch later
 - [ ] [Technical Difficulties - Paul Gilbert (Aprendendo com a Musica)Ep54](https://www.youtube.com/watch?v=PsSd1g4RTzs)
+
+
+### Python
+```bash
+$ python __init__.py
+```
