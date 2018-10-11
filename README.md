@@ -8,7 +8,7 @@ Goals
 - [x] Travel to Netherlands and Germany
 - [ ] Save 10k until **November**
 - [ ] Be confident to speak in English until **November**
-- [ ] Do an application to list my notes until **August**
+- [ ] Do an application to list my notes until **August** :(
 
 ---
 
