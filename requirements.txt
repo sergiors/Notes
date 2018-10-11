@@ -1,4 +1,5 @@
 requests==2.18.4
-pipe==1.5.0apturl==0.5.2apturl==0.5.2
+pipe==1.5.0
 urwid==2.0.1
 tabulate==0.8.2
+git+https://github.com/sergiors/pyf.git#egg=pyf

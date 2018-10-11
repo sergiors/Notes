@@ -4,6 +4,7 @@ import requests
 import calendar
 import datetime
 import urwid
+import builtins
 
 from xml.etree import ElementTree
 from tabulate import tabulate
@@ -15,12 +16,12 @@ LAST_90_DAYS_RATES_URL = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hi
 
 @Pipe
 def map(xs: list, f) -> list:
-    return [f(x) for x in xs]
+    return builtins.map(f, xs) | as_list
 
 
 @Pipe
 def filter(xs: list, f) -> list:
-    return [x for x in xs if f(x)]
+    return builtins.filter(f, xs) | as_list
 
 
 def last_90_days_rates():
