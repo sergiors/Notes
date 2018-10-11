@@ -1,9 +1,12 @@
 #/usr/bin/env python3
 
 import requests
+import calendar
+import datetime
+import urwid
 
 from xml.etree import ElementTree
-from tableprint import table
+from tabulate import tabulate
 from pipe import Pipe
 from pipe import as_list, first
 
@@ -29,17 +32,36 @@ def last_90_days_rates():
         'eurofxref': 'http://www.ecb.int/vocabulary/2002-08-01/eurofxref',
     }
 
-    data = envelope.findall('./eurofxref:Cube/eurofxref:Cube[@time]', ns)
-
     def fmt(d):
         currency = d | filter(lambda c: c.attrib['currency'] == 'BRL') | first
-        return (d.attrib['time'], currency.attrib['rate'])
+        return (d.attrib['time'], 'BRL ' + currency.attrib['rate'])
 
-    return data | map(fmt)
+    return envelope.findall('./eurofxref:Cube/eurofxref:Cube[@time]', ns) | map(fmt)
 
 
 if __name__ == '__main__':
-    rates = last_90_days_rates()
-    headers = ['Date', 'Rate']
+    now = datetime.datetime.now()
 
-    table(rates, headers)
+    rates = last_90_days_rates()[:7]
+
+    calendar = urwid.Text(calendar.month(now.year, now.month))
+    button = urwid.Button(u'Exit or Press q')
+    table = urwid.Text(
+        tabulate(rates, headers=['Date', 'Rate'], tablefmt='orgtbl'))
+    div = urwid.Divider()
+    columns = urwid.Columns([
+        urwid.Pile([urwid.Text(now.isoformat()), div, calendar]),
+        urwid.Pile([urwid.Text('Euro History'), div, table])
+    ])
+    view = urwid.Filler(urwid.Pile([columns, button]), valign='top')
+
+    def on_exit_clicked(button):
+        raise urwid.ExitMainLoop()
+
+    def exit_on_q(key):
+        if key in ('q', 'Q'):
+            raise urwid.ExitMainLoop()
+
+    urwid.connect_signal(button, 'click', on_exit_clicked)
+
+    urwid.MainLoop(view, unhandled_input=exit_on_q).run()
