@@ -2,4 +2,6 @@ requests==2.18.4
 pipe==1.5.0
 urwid==2.0.1
 tabulate==0.8.2
+MechanicalSoup==0.11.0
+Click==7.0
 git+https://github.com/sergiors/pyf.git#egg=pyf
