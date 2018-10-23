@@ -7,6 +7,11 @@ title: PostgreSQL Cheatsheet
 
 
 ```bash
+#
+# -c command
+# --command=command
+# psql -c '\x' -c 'SELECT * FROM foo;'
+
 $ psql postgres://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE NAME}
 ```
 
