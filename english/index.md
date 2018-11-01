@@ -34,6 +34,8 @@ To listen
 Good videos
 -----------
 
+- [ ] https://learnenglish.britishcouncil.org/en/english-grammar/comparative-and-superlative-adjectives
+- [ ] https://englishlive.ef.com/pt-br/blog/gramatica-em-ingles-clearer-ou-clear/
 - [x] [REDUZA SEU SOTAQUE EM 20% | dica de inglês em inglês #01](https://www.youtube.com/watch?v=0Yr8xnNXvEA) 1x
 - [x] [Improve Your Vocabulary With These Simple Tips](https://www.youtube.com/watch?v=RE8Q1rIvQ7o) 1x
 - [x] [How to increase your vocabulary](https://www.youtube.com/watch?v=53SIKuCuHv0) 1x

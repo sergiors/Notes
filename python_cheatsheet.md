@@ -180,4 +180,5 @@ f(a=1, b=3)
 - https://realpython.com/inner-functions-what-are-they-good-for/
 - https://realpython.com/python-f-strings/
 - https://realpython.com/python-dicts/
+- https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
 - https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)

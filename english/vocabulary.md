@@ -14,6 +14,7 @@ Words
 - [ ] Although
 - [ ] Whether
 - [ ] Ratters
+- [x] Remember or remind?
 
 ---
 
@@ -94,6 +95,15 @@ The act of thinking about or considering something, an ideia or option.
 - Every day I bear
 - Yesterday I bore
 - I have born
+
+---
+
+#### Remember or remind?
+
+> I remember now that I had to remind you to take your medicines.
+
+https://dictionary.cambridge.org/pt/gramatica/gramatica-britanica/remember-or-remind
+
 
 ---
 
