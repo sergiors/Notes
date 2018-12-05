@@ -1,6 +1,3 @@
-#/usr/bin/env python3
-
-
 import click
 
 from mechanicalsoup import StatefulBrowser
