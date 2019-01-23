@@ -33,6 +33,18 @@ SELECT * FROM enrollments WHERE (metadata->'created_at')::timestamptz) < '2018-0
 COPY (select * from users) TO STDOUT DELIMITER ',' CSV HEADER;
 ```
 
+#### enable extension
+```sql
+-- enable citext
+CREATE EXTENSION IF NOT EXISTS citext WITH SCHEMA public;
+
+-- enable uuid
+CREATE EXTENSION IF NOT EXISTS 'uuid-ossp';
+
+-- generate uuid
+SELECT uuid_generate_v4();
+```
+
 Links
 -----
 
