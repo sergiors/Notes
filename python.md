@@ -166,6 +166,14 @@ f(a=1, b=3)
 
 ```
 
+```python
+# the walrus operator
+# https://docs.python.org/3/whatsnew/3.8.html#assignment-expressions
+
+if (n := len(a)) > 10:
+    print(f"List is too long ({n} elements, expected <= 10)")
+```
+
 ## Refs
 
 -   http://whypy3.com/
