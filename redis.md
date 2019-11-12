@@ -1,5 +1,5 @@
 ---
-title: Redis Cheatsheet
+title: Redis
 ---
 
 ```bash

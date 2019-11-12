@@ -1,9 +1,6 @@
 ---
-title: Python Cheatsheet
+title: Python
 ---
-
-Python Cheatsheet
------------------
 
 Python doesn't have type hint, is just for **semantics**, known as **annotations**. If you want static type, you need to use [MyPy](http://mypy-lang.org/).
 
@@ -15,7 +12,7 @@ def foo(a: str) -> int:
 ## [Data Structures](https://docs.python.org/3.6/tutorial/datastructures.html)
 
 ```python
-# List
+# list
 # mutable
 
 >>> [1, 2, 3, 1]
@@ -24,7 +21,7 @@ def foo(a: str) -> int:
 ```
 
 ```python
-# Tuple
+# tuple
 # immutable
 
 >>> (1, 2, 3, 1)
@@ -33,12 +30,12 @@ def foo(a: str) -> int:
 ```
 
 ```python
-# Dict
+# dict
 
 {'a': 1, 'b': 2}
 
 
-# How to merge two dicts in Python 3.5+
+# how to merge two dicts in Python 3.5+
 
 >>> x = {'a': 1, 'b': 2}
 >>> y = {'b': 3, 'c': 4}
@@ -49,7 +46,7 @@ def foo(a: str) -> int:
 ```
 
 ```python
-# Set
+# set
 # unordered collection
 # no duplicate elements
 
@@ -63,34 +60,32 @@ Note: to create an empty set you have to use `set()`, not `{}`
 ---
 
 ```python
-# If-Else
+# if-else
 
 >>> [a if a else 2 for a in [0, 1, 0, 3]]
 [2, 1, 2, 3]
 
 ```
 
-
 ```python
-# Map
+# map
 
 >>> list(map(lambda x: x+1, range(5)))
 [1, 2, 3, 4, 5]
 
-# Filter
+# filter
 >>> list(filter(lambda x: x>5, range(10)))
 [6, 7, 8, 9]
 
-# Reduce
+# reduce
 >>> from functools import reduce
 >>> reduce(lambda p, x: p+x, range(10))
 45
 
 ```
 
-
 ```python
-# Function argument unpacking
+# function argument unpacking
 
 >>> def myfunc(x, y, z):
 ...     print(x, y, z)
@@ -108,7 +103,7 @@ Note: to create an empty set you have to use `set()`, not `{}`
 ```
 
 ```python
-# Unpacking
+# unpacking
 
 >>> head, *rest = range(5)
 >>> head
@@ -133,8 +128,8 @@ Note: to create an empty set you have to use `set()`, not `{}`
 ```
 
 ```python
-# Keyword-only arguments
-# It doesn't equal to use unpacking arguments
+# keyword-only arguments
+# it doesn't equal to use unpacking arguments
 
 def compare(a, b, *, key=None):
     ...
@@ -160,7 +155,6 @@ def compare(a, b, *, key=None):
 
 ```
 
-
 ```python
 # allow only keyword arguments after a bare `*`
 
@@ -173,12 +167,13 @@ f(a=1, b=3)
 ```
 
 ## Refs
-- http://whypy3.com/
-- https://docs.python-guide.org/
-- https://gto76.github.io/python-cheatsheet/
-- https://dbader.org/blog/
-- https://realpython.com/inner-functions-what-are-they-good-for/
-- https://realpython.com/python-f-strings/
-- https://realpython.com/python-dicts/
-- https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
-- https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
+
+-   http://whypy3.com/
+-   https://docs.python-guide.org/
+-   https://gto76.github.io/python-cheatsheet/
+-   https://dbader.org/blog/
+-   https://realpython.com/inner-functions-what-are-they-good-for/
+-   https://realpython.com/python-f-strings/
+-   https://realpython.com/python-dicts/
+-   https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
+-   https://www.youtube.com/watch?v=--1MDx3IKac (Portuguese)
